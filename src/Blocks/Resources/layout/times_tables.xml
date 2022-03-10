@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/goBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/go_back_button" />
+
+        <TextView
+            android:id="@+id/countTextView"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    
+        <TextView
+            android:id="@+id/timesTableTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:textSize="80dp" />
+
+        <Button
+            android:id="@+id/optionOneButton"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="10dp" />
+    
+        <Button
+            android:id="@+id/optionTwoButton"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="10dp" />
+    
+        <Button
+            android:id="@+id/optionThreeButton"
+            android:layout_width="150dp"
+            android:layout_height="75dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
