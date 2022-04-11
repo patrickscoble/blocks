@@ -8,4 +8,34 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+	<style name="WordleRow">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">16dp</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="WordleCell">
+		<item name="android:layout_width">64dp</item>
+		<item name="android:layout_height">64dp</item>
+		<item name="android:layout_marginRight">8dp</item>
+		<item name="android:textSize">32dp</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:maxLength">1</item>
+		<item name="android:enabled">false</item>
+		<item name="android:inputType">textCapCharacters</item>
+		<item name="android:background">@drawable/wordle_cell_style</item>		
+	</style>
+
+	<style name="BottomNavigationView">
+		<item name="android:id">@+id/navigation</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginStart">0dp</item>
+		<item name="android:layout_marginEnd">0dp</item>
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:background">?android:attr/windowBackground</item>
+	</style>
+
 </resources>

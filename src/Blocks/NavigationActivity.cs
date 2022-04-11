@@ -32,6 +32,13 @@ namespace Blocks
                     StartActivity(intent);
                     return true;
                 }
+                case Resource.Id.navigation_wordle:
+                {
+                    Finish();
+                    Intent intent  = new Intent(this, typeof(WordleActivity));
+                    StartActivity(intent);
+                    return true;
+                }
                 case Resource.Id.navigation_coming_soon:
                 {
                     Finish();

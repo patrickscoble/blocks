@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/guessedLettersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/guessed_letters" />
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell1"
+                android:nextFocusDown="@+id/cell2"
+                android:enabled="true"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell2"
+                android:nextFocusDown="@+id/cell3"
+                android:enabled="true"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell3"
+                android:nextFocusDown="@+id/cell4"
+                android:enabled="true"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell4"
+                android:nextFocusDown="@+id/cell5"
+                android:enabled="true"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell5"
+                android:layout_marginRight="0dp"
+                android:enabled="true"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell6"
+                android:nextFocusDown="@+id/cell7"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell7"
+                android:nextFocusDown="@+id/cell8"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell8"
+                android:nextFocusDown="@+id/cell9"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell9"
+                android:nextFocusDown="@+id/cell10"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell10"
+                android:layout_marginRight="0dp"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell11"
+                android:nextFocusDown="@+id/cell12"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell12"
+                android:nextFocusDown="@+id/cell13"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell13"
+                android:nextFocusDown="@+id/cell14"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell14"
+                android:nextFocusDown="@+id/cell15"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell15"
+                android:layout_marginRight="0dp"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell16"
+                android:nextFocusDown="@+id/cell17"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell17"
+                android:nextFocusDown="@+id/cell18"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell18"
+                android:nextFocusDown="@+id/cell19"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell19"
+                android:nextFocusDown="@+id/cell20"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell20"
+                android:layout_marginRight="0dp"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell21"
+                android:nextFocusDown="@+id/cell22"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell22"
+                android:nextFocusDown="@+id/cell23"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell23"
+                android:nextFocusDown="@+id/cell24"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell24"
+                android:nextFocusDown="@+id/cell25"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell25"
+                android:layout_marginRight="0dp"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WordleRow">
+
+            <EditText
+                android:id="@+id/cell26"
+                android:nextFocusDown="@+id/cell27"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell27"
+                android:nextFocusDown="@+id/cell28"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell28"
+                android:nextFocusDown="@+id/cell29"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell29"
+                android:nextFocusDown="@+id/cell30"
+                style="@style/WordleCell" />
+
+            <EditText
+                android:id="@+id/cell30"
+                android:layout_marginRight="0dp"
+                style="@style/WordleCell" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/submit_button" />
+      
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:menu="@menu/navigation"
+        app:labelVisibilityMode="labeled"
+        style="@style/BottomNavigationView" />
+
+</RelativeLayout>

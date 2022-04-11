@@ -11,7 +11,12 @@
         android:icon="@drawable/multiplication_sign"
         android:title="@string/title_times_tables" />
 
-    <item
+	<item
+        android:id="@+id/navigation_wordle"
+        android:icon="@drawable/wordle"
+        android:title="@string/title_wordle" />
+
+	<item
         android:id="@+id/navigation_coming_soon"
         android:icon="@drawable/spanner"
         android:title="@string/title_coming_soon" />
